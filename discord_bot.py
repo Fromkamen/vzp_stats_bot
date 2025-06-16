@@ -1,5 +1,7 @@
 import discord
 from discord import app_commands
+import os
+from dotenv import load_dotenv
 import datetime
 import sqlite3
 from discord.utils import get
@@ -428,5 +430,6 @@ async def send_to_stats_channel(interaction, conn, title, color, territories, no
 
 # ... (остальной код бота остается без изменений)
 
-bot.run('MTM4MDI3ODQ3MzAyNDczMzI2Ng.GA8PiU.IkdhlSTzL-O49ucERU9HwJbkFMqY-S9vLwPSs4')
+load_dotenv()
+bot.run(os.getenv("DISCORD_TOKEN")))
 
