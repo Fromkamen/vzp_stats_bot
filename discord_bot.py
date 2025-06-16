@@ -428,5 +428,5 @@ async def send_to_stats_channel(interaction, conn, title, color, territories, no
 
 # ... (остальной код бота остается без изменений)
 
-bot.run('MTM4MDI3ODQ3MzAyNDczMzI2Ng.GA3oaL.TCn-MHjYPMmzFgYuk0Hf0cfm03UqtIJw3PQQsY')
+bot.run('MTM4MDI3ODQ3MzAyNDczMzI2Ng.GA8PiU.IkdhlSTzL-O49ucERU9HwJbkFMqY-S9vLwPSs4')
 
